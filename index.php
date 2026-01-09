@@ -19,7 +19,7 @@ Kirby::plugin('scottboms/uuid-button', [
           // build exactly: page://UUID (UUID without prefix)
 					'copy-page-uuid' => function (Page $page): array {
 						$uuid = $page->uuid();
-						$value = '(page://' . $uuid->id() . ')';
+						$value = '(page://' . $uuid->id() . ' text:)';
 
 						return [
 							'props' => [
@@ -33,7 +33,7 @@ Kirby::plugin('scottboms/uuid-button', [
 	],
 	'info' => [
 		'homepage' => 'https://github.com/scottboms/kirby-uuid-button',
-		'version'  => '1.0.0',
+		'version'  => '1.0.1',
 		'license'  => 'MIT',
 		'authors'  => [[ 'name' => 'Scott Boms' ]],
 	],
