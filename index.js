@@ -10,6 +10,7 @@ panel.plugin("scottboms/uuid-button", {
 					variant="filled"
 					theme="yellow"
 					size="sm"
+					title="Copy page UUID link"
 					@click="copy"
 				>
 					UUID

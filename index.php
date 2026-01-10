@@ -33,7 +33,7 @@ Kirby::plugin('scottboms/uuid-button', [
 	],
 	'info' => [
 		'homepage' => 'https://github.com/scottboms/kirby-uuid-button',
-		'version'  => '1.0.1',
+		'version'  => '1.0.2',
 		'license'  => 'MIT',
 		'authors'  => [[ 'name' => 'Scott Boms' ]],
 	],
